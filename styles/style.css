@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-principal: #436850;
+    --cor-secundaria: #FBFADA;
+
+    --fonte-titulo: 'Krona One', sans-serif;
+    --fonte-texto: 'Montserrat', sans-serif;
+}
+.cabecalho {
+    background-color: var(--cor-principal);
+    padding: 1%;
+    
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-size: 2.25rem;
+    
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    
+}
+.principal__apresentacao{
+    background-color: var(--cor-secundaria);
+    justify-content: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.principal__apresentacao__titulo{
+    text-align: center;
+    color: var(--cor-principal);
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+}
+.principal__apresentacao__texto{
+    text-align: center;
+    gap: 10px;
+    font-family: var(--fonte-texto);
+    color: var(--cor-principal);
+    font-size: 1rem;
+}
+.principal__produto{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 5% 0% 5% 0%;
+
+}
+.principal__produto__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.principal__produto__titulo{
+    color: var(--cor-principal);
+    font-family: var(--fonte-titulo);
+    font-size: 1.2rem;
+}
+.principal__produto__texto{
+    color: var(--cor-principal);
+    font-family: var(--fonte-texto);
+    font-size: 1rem;
+}
+.img{
+    width: 25%;
+    border-radius: 50%;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 5% 0% 5% 0%;
+    background-color: var(--cor-principal);
+    
+}
+.footer__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 1.2rem;
+    color: var(--cor-secundaria);
+    text-align: center;
+
+}
+.footer__texto{
+    font-family: var(--fonte-texto);
+    font-size: 1.0rem;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
